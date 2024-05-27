@@ -1,26 +1,27 @@
-.spacer {
-  flex: 1 1 auto;
-}
-
-.spacer-small {
-  margin: 0 10px; 
-}
-
-.login-button{
-    margin-right: 8px;
-}
-
 .logo {
-  height: 50px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.nav-link {
   margin-right: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
 }
 
-.nav-link{
-    text-decoration: none;
-    color: inherit;
-    font-weight: normal;
+.ms-auto {
+  display: flex;
+  margin-left: auto;
 }
 
-.nav-link:hover {
-    text-decoration: underline;
+.custom-color-button {
+  background-color: #3D195B;
+  color:white;
 }
+

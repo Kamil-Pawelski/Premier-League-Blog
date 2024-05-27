@@ -1,0 +1,35 @@
+.main-page-container {
+  text-align: center;
+  font-size: 0.6rem;
+  margin: 20px;
+}
+
+.latest-article {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.latest-article-image {
+  width: 40%;
+  height: auto;
+  max-height: 200px;
+}
+
+.last-articles {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.last-articles-images {
+  width: 60%;
+  height: auto;
+  max-height: 100px;
+}
+
+
+button {
+  margin-top: 20px;
+}

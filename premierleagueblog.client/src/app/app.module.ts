@@ -7,11 +7,13 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { AngularMaterialModule } from './angular-material.module';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavMenuComponent
+    NavMenuComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
