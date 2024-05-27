@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.server\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|solutionrelative:premierleagueblog.server\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|solutionrelative:premierleagueblog.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 318,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\.gitignore",
+              "RelativeDocumentMoniker": "PremierLeagueBlog.Server\\.gitignore",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\.gitignore",
+              "RelativeToolTip": "PremierLeagueBlog.Server\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI0BAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-27T08:48:03.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\.vscode\\launch.json",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\.vscode\\launch.json",
+              "RelativeToolTip": "premierleagueblog.client\\.vscode\\launch.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T08:44:21.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "PremierLeagueBlog.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "PremierLeagueBlog.Server\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T08:44:12.126Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
