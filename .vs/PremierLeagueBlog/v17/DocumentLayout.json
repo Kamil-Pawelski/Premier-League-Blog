@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.server\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|solutionrelative:premierleagueblog.server\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
       "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
@@ -11,24 +19,16 @@
       "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\app.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\main-page\\main-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\main-page\\main-page.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\angular-material.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\angular-material.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\app\\main-page\\main-page.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\app\\main-page\\main-page.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,98 +37,100 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 318,
+          "DockedWidth": 415,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "nav-menu.component.scss",
-              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss",
-              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss",
-              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss",
-              "RelativeToolTip": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-05-27T09:26:40.234Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "app.component.scss",
-              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\app.component.scss",
-              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\app.component.scss",
-              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\app.component.scss",
-              "RelativeToolTip": "premierleagueblog.client\\src\\app\\app.component.scss",
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "PremierLeagueBlog.Server\\Controllers\\ArticlesController.cs",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "PremierLeagueBlog.Server\\Controllers\\ArticlesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2024-05-27T09:23:01.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "app.module.ts",
-              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\app.module.ts",
-              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\app.module.ts",
-              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\app.module.ts",
-              "RelativeToolTip": "premierleagueblog.client\\src\\app\\app.module.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-27T09:16:58.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "nav-menu.component.html",
-              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html",
-              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html",
-              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html",
-              "RelativeToolTip": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-27T09:16:16.214Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T14:04:19.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "nav-menu.component.ts",
-              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.ts",
-              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.ts",
-              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.ts",
-              "RelativeToolTip": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-27T09:10:43.614Z",
-              "EditorCaption": ""
+              "Title": "app.component.scss",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\app.component.scss",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\app.component.scss",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\app.component.scss",
+              "RelativeToolTip": "premierleagueblog.client\\src\\app\\app.component.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-05-27T13:58:55.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "angular-material.module.ts",
-              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\angular-material.module.ts",
-              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\angular-material.module.ts",
-              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\angular-material.module.ts",
-              "RelativeToolTip": "premierleagueblog.client\\src\\app\\angular-material.module.ts",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-05-27T09:14:00.774Z",
+              "DocumentIndex": 1,
+              "Title": "nav-menu.component.html",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html",
+              "RelativeToolTip": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-27T13:36:37.748Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "app.component.html",
-              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\app.component.html",
-              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\app.component.html",
-              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\app.component.html",
-              "RelativeToolTip": "premierleagueblog.client\\src\\app\\app.component.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\angular.json",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\angular.json",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\angular.json",
+              "RelativeToolTip": "premierleagueblog.client\\angular.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACsAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T13:09:53.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main-page.component.html",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\main-page\\main-page.component.html",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\main-page\\main-page.component.html",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\main-page\\main-page.component.html",
+              "RelativeToolTip": "premierleagueblog.client\\src\\app\\main-page\\main-page.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-05-27T09:11:47.685Z",
+              "WhenOpened": "2024-05-27T12:58:57.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "main-page.component.scss",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\main-page\\main-page.component.scss",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\main-page\\main-page.component.scss",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\main-page\\main-page.component.scss",
+              "RelativeToolTip": "premierleagueblog.client\\src\\app\\main-page\\main-page.component.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-05-27T12:57:40.316Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 539,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "nav-menu.component.scss",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss",
+              "RelativeToolTip": "premierleagueblog.client\\src\\app\\nav-menu\\nav-menu.component.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-05-27T13:34:40.458Z",
               "EditorCaption": ""
             }
           ]
