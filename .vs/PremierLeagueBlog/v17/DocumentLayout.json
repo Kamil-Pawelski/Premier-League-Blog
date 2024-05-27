@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.server\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|solutionrelative:premierleagueblog.server\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\src\\proxy.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|solutionrelative:premierleagueblog.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.server\\premierleagueblog.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|solutionrelative:premierleagueblog.server\\premierleagueblog.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|solutionrelative:premierleagueblog.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\karma.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\karma.conf.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\angular.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\aspnetcore-https.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\aspnetcore-https.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E4157C2B-4244-4311-AB97-A6F7FD12C850}|premierleagueblog.client\\premierleagueblog.client.esproj|solutionrelative:premierleagueblog.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|c:\\users\\kamil\\desktop\\angular\\premierleagueblog\\premierleagueblog.server\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1B4202A3-71C3-4C4F-9B6C-5AA0D1DC7321}|PremierLeagueBlog.Server\\PremierLeagueBlog.Server.csproj|solutionrelative:premierleagueblog.server\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +55,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "proxy.conf.js",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\proxy.conf.js",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\src\\proxy.conf.js",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\src\\proxy.conf.js",
+              "RelativeToolTip": "premierleagueblog.client\\src\\proxy.conf.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-27T08:55:03.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PremierLeagueBlog.Server.http",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\PremierLeagueBlog.Server.http",
+              "RelativeDocumentMoniker": "PremierLeagueBlog.Server\\PremierLeagueBlog.Server.http",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\PremierLeagueBlog.Server.http",
+              "RelativeToolTip": "PremierLeagueBlog.Server\\PremierLeagueBlog.Server.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-05-27T08:53:16.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "PremierLeagueBlog.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\appsettings.json",
+              "RelativeToolTip": "PremierLeagueBlog.Server\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T08:53:15.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "karma.conf.js",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\karma.conf.js",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\karma.conf.js",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\karma.conf.js",
+              "RelativeToolTip": "premierleagueblog.client\\karma.conf.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-27T08:53:07.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "angular.json",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\angular.json",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\angular.json",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\angular.json",
+              "RelativeToolTip": "premierleagueblog.client\\angular.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T08:53:06.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "aspnetcore-https.js",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\aspnetcore-https.js",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\aspnetcore-https.js",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\aspnetcore-https.js",
+              "RelativeToolTip": "premierleagueblog.client\\aspnetcore-https.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-05-27T08:53:05.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\package.json",
+              "RelativeDocumentMoniker": "premierleagueblog.client\\package.json",
+              "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\package.json",
+              "RelativeToolTip": "premierleagueblog.client\\package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-27T08:53:04.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\.gitignore",
               "RelativeDocumentMoniker": "PremierLeagueBlog.Server\\.gitignore",
@@ -39,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "launch.json",
               "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\premierleagueblog.client\\.vscode\\launch.json",
               "RelativeDocumentMoniker": "premierleagueblog.client\\.vscode\\launch.json",
@@ -52,13 +171,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "PremierLeagueBlog.Server\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Kamil\\Desktop\\Angular\\PremierLeagueBlog\\PremierLeagueBlog.Server\\Properties\\launchSettings.json",
               "RelativeToolTip": "PremierLeagueBlog.Server\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAHAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-05-27T08:44:12.126Z",
               "EditorCaption": ""
