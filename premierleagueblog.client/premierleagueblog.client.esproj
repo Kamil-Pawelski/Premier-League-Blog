@@ -8,7 +8,11 @@
     <BuildOutputFolder>$(MSBuildProjectDirectory)\dist\premierleagueblog.client\</BuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\app\models\" />
     <Folder Include="src\environments\" />
   </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties angular_1json__JsonSchema="" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

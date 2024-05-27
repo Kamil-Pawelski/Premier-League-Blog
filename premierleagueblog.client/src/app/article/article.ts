@@ -6,5 +6,3 @@ export interface Article {
   description: string;
   date: Date;
 }
-
-

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { MainPageService } from './main-page.service';
-import { Article } from '../models/article';
+import { ArticleService } from '../article/article.service';
+import { Article } from '../article/article';
 
 @Component({
   selector: 'app-main-page',
@@ -11,15 +11,14 @@ export class MainPageComponent implements OnInit {
   latestArticle?: Article;
   lastArticles: Article[] = [];
 
-  constructor(private mainPageService: MainPageService) { }
+  constructor(private articleService: ArticleService) { }
 
-  ngOnInit(): void {
+  ngOnInit(){
     this.loadData();
   }
 
-  loadData(): void {
-    // Placeholder for when the API is ready
-    this.mainPageService.getData().subscribe({
+  loadData(){
+    this.articleService.getData().subscribe({
       next: (result) => {
         if (result && result.totalCount > 0) {
           this.latestArticle = result.articles[0];

@@ -8,18 +8,22 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { AngularMaterialModule } from './angular-material.module';
 import { MainPageComponent } from './main-page/main-page.component';
+import { ArticleComponent } from './article/article.component';
+import { FormsModule } from '@angular/forms'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
-    MainPageComponent
+    MainPageComponent,
+    ArticleComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    AngularMaterialModule
+    AngularMaterialModule,
+    FormsModule
   ],
   providers: [
     provideAnimationsAsync()

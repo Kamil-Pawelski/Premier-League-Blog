@@ -1,22 +1,24 @@
 <div class="main-page-container">
   <h1><b>NEWEST ARTICLES</b></h1>
-  <div class="container latest-article" *ngIf="latestArticle">
-    <img [src]="getImagePath(latestArticle.image)" class="latest-article-image" alt="Article Image" />
-    <h2>{{ latestArticle.title }}</h2>
-    <p>{{ latestArticle.summary }}</p>
-  </div>
+  <p *ngIf="!latestArticle">Loading...</p>
+  <a class="nav-link" [routerLink]="['/article', latestArticle?.id]">
+    <div class="container latest-article" *ngIf="latestArticle">
+      <img [src]="getImagePath(latestArticle.image)" class="latest-article-image" alt="Article Image" />
+      <h2>{{ latestArticle.title }}</h2>
+      <p>{{ latestArticle.summary }}</p>
+    </div>
+  </a>
 
   <div class="container text-center">
     <div class="row" *ngFor="let group of groupArticles(lastArticles, 3)">
-      <div class="col  last-articles" *ngFor="let article of group">
-        <img [src]="getImagePath(article.image)" class="last-articles-images" alt="Article Image" />
-        <h3>{{ article.title }}</h3>
-        <p>{{ article.summary }}</p>
+      <div class="col last-articles" *ngFor="let article of group">
+        <a class="nav-link" [routerLink]="['/article', article.id]">
+          <img [src]="getImagePath(article.image)" class="last-articles-images" alt="Article Image" />
+          <h3>{{ article.title }}</h3>
+          <p>{{ article.summary }}</p>
+        </a>
       </div>
     </div>
   </div>
-
-
-
-  <button mat-raised-button color="primary" routerLink="/all-articles">All Articles</button>
+  <button class="btn custom-button" [routerLink]="['/']">All Articles</button>
 </div>
