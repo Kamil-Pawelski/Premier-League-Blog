@@ -32,9 +32,10 @@ namespace PremierLeagueBlog.Server.Controllers
             return article;
         }
 
-        // GET: api/Articles/Seven
+        // GET: api/Articles/Seven 
+        // Return the seven most recent articles
         [HttpGet("Seven")]
-        public async Task<ActionResult<IEnumerable<Article>>> GetSevenLatestArticles()
+        public async Task<ActionResult<IEnumerable<Article>>> GetSevenRecentArticles()
         {
             var articleCount = await _context.Articles.CountAsync();
 
@@ -51,6 +52,40 @@ namespace PremierLeagueBlog.Server.Controllers
                 TotalCount = articleCount,
                 Articles = articles
             });
+        }
+
+        // PUT: api/Articles/{id}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutArticle(int id, Article article)
+        {
+            if (id != article.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(article).State = EntityState.Modified;
+
+            await _context.SaveChangesAsync();
+   
+
+            return NoContent();
+        }
+
+        // DELETE: api/Articles/{id}
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteArticle(int id)
+        {
+            var article = await _context.Articles.FindAsync(id);
+
+            if (article == null)
+            {
+                return NotFound();
+            }
+
+            _context.Articles.Remove(article);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }

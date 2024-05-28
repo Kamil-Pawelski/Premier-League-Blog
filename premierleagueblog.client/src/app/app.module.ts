@@ -9,7 +9,7 @@ import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { AngularMaterialModule } from './angular-material.module';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ArticleComponent } from './article/article.component';
-import { FormsModule } from '@angular/forms'; 
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { FormsModule } from '@angular/forms';
     HttpClientModule,
     AppRoutingModule,
     AngularMaterialModule,
-    FormsModule
+    ReactiveFormsModule
   ],
   providers: [
     provideAnimationsAsync()

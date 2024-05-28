@@ -31,6 +31,11 @@ export class ArticleService extends BaseService<Article> {
     var url = this.getUrl("api/Articles");
     return this.http.post<Article>(url, item);
   }
+
+  delete(id: number): Observable<Article> {
+    var url = this.getUrl("api/Articles/" + id);
+    return this.http.delete<Article>(url);
+  }
 }
 
 interface ArticlesResponse {

@@ -1,15 +1,15 @@
-.article-image {
-  width: 60%;
-  height: auto;
-  max-height: 400px;
-}
-
 .article-title {
   font-size: 4.5rem;
   font-weight: bold;
   line-height: 115%;
   margin-bottom: 2rem;
 }
+
+.article-summary {
+  font-size: 3rem;
+  line-height: 115%;
+}
+
 
 .article-text {
   font-size: 3rem;
@@ -25,11 +25,12 @@
 
 @media (max-width: 768px) {
   .article-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
-  .article-image {
-    width: 70%;
+  .article-summary {
+    font-size: 1.5rem;
+    line-height: 115%;
   }
 
   .article-text {

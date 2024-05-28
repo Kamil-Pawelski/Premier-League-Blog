@@ -4,19 +4,43 @@
   </div>
   <div *ngIf="article">
     <div class="mt-3">
-      <button class="btn me-2 custom-color-button" aria-label="Login button" >
-        Edit
+      <button class="btn me-2 custom-color-button" aria-label="Login button" (click)="editData()">
+        {{ editMode ? 'Back' : 'Edit' }}
       </button>
-      <button class="btn custom-color-button" aria-label="Register button" >
+      <button class="btn custom-color-button" aria-label="Register button" (click)="deleteArticle()">
         Delete
       </button>
     </div>
-    <h1 class="mt-5 article-title"><b>{{ article.title }} </b></h1>
-    <div class="d-flex justify-content-center">
-      <img class="article-image" [src]="getImagePath(article.image)" alt="Article Image" />
+    <div *ngIf="!editMode">
+      <h1 class="mt-5 article-title"><b>{{ article.title }} </b></h1>
+      <h2 class="article-summary"><b>{{ article.summary }} </b></h2>
+      <div class="d-flex justify-content-center">
+        <img class="img-fluid" [src]="getImagePath(article.image)" alt="Article Image" />
+      </div>
+      <div>
+        <p class="article-text">{{article.description}} </p>
+      </div>
     </div>
-    <div>
-      <p class="article-text">{{article.description}} </p>
+    <div *ngIf="editMode">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="form-group mt-3">
+          <label for="title">Title:</label>
+          <input type="text" id="title" class="form-control" formControlName="title" required />
+        </div>
+        <div class="form-group mt-3">
+          <label for="summary">Summary:</label>
+          <input type="text" id="summary" class="form-control" formControlName="summary" required />
+        </div>
+        <div class="form-group mt-3">
+          <label for="image">Image URL:</label>
+          <input type="text" id="image" class="form-control" formControlName="image" readonly />
+        </div>
+        <div class="form-group mt-3">
+          <label for="description">Description:</label>
+          <textarea id="description" class="form-control" formControlName="description" required></textarea>
+        </div>
+        <button type="submit" class="btn custom-color-button mt-3">Save</button>
+      </form>
     </div>
   </div>
   <!-- Comments section -->
