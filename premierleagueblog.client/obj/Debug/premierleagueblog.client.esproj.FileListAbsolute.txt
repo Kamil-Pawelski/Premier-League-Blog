@@ -1,1 +1,2 @@
 C:\Users\Kamil\Desktop\Angular\PremierLeagueBlog\premierleagueblog.client\obj\Debug\premierleagueblog.client.esproj.CoreCompileInputs.cache
+C:\Users\kamil\Desktop\Premier-League-Blog\premierleagueblog.client\obj\Debug\premierleagueblog.client.esproj.CoreCompileInputs.cache

@@ -10,13 +10,17 @@ import { AngularMaterialModule } from './angular-material.module';
 import { MainPageComponent } from './main-page/main-page.component';
 import { ArticleComponent } from './article/article.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { LoginComponent } from './login/login.component';
+import { AuthComponent } from './auth/auth.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     MainPageComponent,
-    ArticleComponent
+    ArticleComponent,
+    LoginComponent,
+    AuthComponent
   ],
   imports: [
     BrowserModule,

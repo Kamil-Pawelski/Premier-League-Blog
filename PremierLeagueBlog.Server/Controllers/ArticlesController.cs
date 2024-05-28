@@ -38,7 +38,7 @@ namespace PremierLeagueBlog.Server.Controllers
         public async Task<ActionResult<IEnumerable<Article>>> GetSevenRecentArticles()
         {
             var articleCount = await _context.Articles.CountAsync();
-
+          
             if (articleCount > 7) {
                 articleCount = 7;
             }
