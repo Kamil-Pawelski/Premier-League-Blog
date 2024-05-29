@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Article } from './article';
 import { ArticleService } from './article.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { Subject, takeUntil } from 'rxjs';
+import { AuthService } from '../auth/auth.service';
 
 @Component({
   selector: 'app-article',
   templateUrl: './article.component.html',
   styleUrl: './article.component.scss'
 })
-export class ArticleComponent implements OnInit {
+export class ArticleComponent implements OnInit, OnDestroy{
+
+  private destroySubject = new Subject();
 
   article?: Article;
 
@@ -19,11 +23,21 @@ export class ArticleComponent implements OnInit {
 
   editMode: boolean = false;
 
+  isLoggedIn: boolean = false;
+  isAdmin: boolean = false;
+
   constructor(
     private activatedRoute: ActivatedRoute,
     private router: Router,
-    private articleService: ArticleService
-  ) { }
+    private articleService: ArticleService,
+    private authService: AuthService
+  ) {
+    this.authService.authStatus
+      .pipe(takeUntil(this.destroySubject))
+      .subscribe(result => {
+        this.isLoggedIn = result;
+      });
+  }
 
   ngOnInit() {
     this.form = new FormGroup({
@@ -36,6 +50,8 @@ export class ArticleComponent implements OnInit {
   }
 
   loadData() {
+    this.isAdmin = this.authService.isAdmin();
+    this.isLoggedIn = this.authService.isAuthenticated();
     var idParam = this.activatedRoute.snapshot.paramMap.get('id');
     this.id = idParam ? +idParam : 0;
     if (this.id) {
@@ -85,4 +101,10 @@ export class ArticleComponent implements OnInit {
   getImagePath(image: string): string {
     return `/assets/images/${image}`;
   }
+
+  ngOnDestroy() {
+    this.destroySubject.next(true);
+    this.destroySubject.complete();
+  }
+
 }

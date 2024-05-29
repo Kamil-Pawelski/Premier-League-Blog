@@ -7,16 +7,21 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" [routerLink]="['/']">Main Page</a>
-        <a class="nav-link" [routerLink]="['/']">Results</a>
-        <a class="nav-link" [routerLink]="['/']">Table</a>
-        <a class="nav-link" [routerLink]="['/']">Transfers</a>
+        <a class="nav-link" [routerLink]="['/']">All Articles</a>
         <div class="ms-auto">
-          <button class="btn me-2 custom-color-button" aria-label="Login button" [routerLink]="['/login']">
-            Login
-          </button>
-          <button class="btn custom-color-button" aria-label="Register button" [routerLink]="['/']">
-            Register
-          </button>
+          <div *ngIf="!isLoggedIn">
+            <button class="btn me-2 custom-color-button" aria-label="Login button" [routerLink]="['/login']">
+              Login
+            </button>
+            <button class="btn custom-color-button" aria-label="Register button" [routerLink]="['/register']">
+              Register
+            </button>
+          </div>
+          <div *ngIf="isLoggedIn">
+            <button class="btn custom-color-button" aria-label="Register button" (click)="onLogout()">
+              Logout
+            </button>
+          </div>
         </div>
       </div>
     </div>
