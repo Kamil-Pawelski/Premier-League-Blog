@@ -1,0 +1,17 @@
+<div class="container mt-5">
+  <div class="row" *ngFor="let article of articles">
+    <div class="col-12 mb-4">
+      <div class="card">
+        <div class="card-body text-center">
+          <h2 class="card-title"><b>{{ article.title }}</b></h2>
+          <h4 class="card-subtitle mb-2 text-muted">{{ article.summary }}</h4>
+          <p class="card-text"><small class="text-muted">{{ article.date | date: 'short' }}</small></p>     
+            <img class="img-fluid article-image" [src]="getImagePath(article.image)" alt="Article Image" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center mt-4">
+    <mat-paginator (page)="loadData($event)" [pageSize]="pageSize" [length]="totalArticles"  showFirstLastButtons ></mat-paginator>
+  </div>
+</div>

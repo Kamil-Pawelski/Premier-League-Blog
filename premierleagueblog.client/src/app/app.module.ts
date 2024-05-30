@@ -13,6 +13,8 @@ import { LoginComponent } from './login/login.component';
 import { AuthInterceptor } from './auth/auth.interceptor';
 import { AuthService } from './auth/auth.service';
 import { RegisterComponent } from './register/register.component';
+import { ArticleAddComponent } from './article/article-add.component';
+import { AllArticleComponent } from './article/all-article.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { RegisterComponent } from './register/register.component';
     MainPageComponent,
     ArticleComponent,
     LoginComponent,
-    RegisterComponent,  
+    RegisterComponent,
+    ArticleAddComponent,
+    AllArticleComponent,  
   ],
   imports: [
     BrowserModule,

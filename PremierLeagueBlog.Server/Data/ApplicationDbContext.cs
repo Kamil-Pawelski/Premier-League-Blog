@@ -1,10 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using PremierLeagueBlog.Server.Data.Models;
 
 namespace PremierLeagueBlog.Server.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {
+        public ApplicationDbContext() : base()
+        {
+        }
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
             
@@ -14,6 +19,8 @@ namespace PremierLeagueBlog.Server.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Article>().HasData(
                 new Article
                 {

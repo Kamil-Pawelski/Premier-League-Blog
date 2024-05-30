@@ -7,7 +7,8 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link" [routerLink]="['/']">Main Page</a>
-        <a class="nav-link" [routerLink]="['/']">All Articles</a>
+        <a class="nav-link" [routerLink]="['/allArticles']">All Articles</a>
+        <a *ngIf="isLoggedIn && isAdmin" class="nav-link" [routerLink]="['/add']">Add Article</a>
         <div class="ms-auto">
           <div *ngIf="!isLoggedIn">
             <button class="btn me-2 custom-color-button" aria-label="Login button" [routerLink]="['/login']">

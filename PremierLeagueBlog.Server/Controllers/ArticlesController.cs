@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PremierLeagueBlog.Server.Data;
 using PremierLeagueBlog.Server.Data.Models;
+using System.Drawing;
 
 namespace PremierLeagueBlog.Server.Controllers
 {
@@ -54,6 +55,26 @@ namespace PremierLeagueBlog.Server.Controllers
             });
         }
 
+        // GET: api/Articles 
+        // Return ten articles based on current page
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<Article>>> GetArticles(int page = 0)
+        {
+            var articleCount = await _context.Articles.CountAsync();
+
+            var articles = await _context.Articles
+             .OrderByDescending(a => a.Date.Date) 
+             .Skip(page * 10)
+             .Take(10)
+             .ToListAsync();
+
+            return Ok(new
+            {
+                TotalCount = articleCount,
+                Articles = articles
+            });
+        }
+
         // PUT: api/Articles/{id}
         [HttpPut("{id}")]
         public async Task<IActionResult> PutArticle(int id, Article article)
@@ -83,6 +104,23 @@ namespace PremierLeagueBlog.Server.Controllers
             }
 
             _context.Articles.Remove(article);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+        // POST: api/Articles
+        [HttpPost]
+        public async Task<IActionResult> CreateArticle(Article article)
+        {
+            if (article == null)
+            {
+                return BadRequest();
+            }
+
+            article.Date = DateTime.Now;
+     
+            _context.Articles.Add(article);
             await _context.SaveChangesAsync();
 
             return NoContent();

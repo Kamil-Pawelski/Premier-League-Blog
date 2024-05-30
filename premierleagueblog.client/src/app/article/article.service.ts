@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Article } from './article';
 import { BaseService } from '../base.service';
@@ -15,6 +15,13 @@ export class ArticleService extends BaseService<Article> {
   getData(): Observable<ArticlesResponse> {
     const url = this.getUrl('api/Articles/Seven');
     return this.http.get<ArticlesResponse>(url);
+  }
+
+  getArticles(currentPage: number): Observable<any> {
+    var url = this.getUrl("api/Articles");
+    let params = new HttpParams();
+    params = params.append('page', currentPage.toString());
+    return this.http.get<Article>(url, {params});
   }
 
   get(id: number): Observable<Article> {
