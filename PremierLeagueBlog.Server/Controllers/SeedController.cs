@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PremierLeagueBlog.Server.Data;
+using PremierLeagueBlog.Server.Data.Models;
 
 namespace PremierLeagueBlog.Server.Controllers
 {

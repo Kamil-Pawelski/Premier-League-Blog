@@ -11,10 +11,10 @@ import { ArticleComponent } from './article/article.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { LoginComponent } from './login/login.component';
 import { AuthInterceptor } from './auth/auth.interceptor';
-import { AuthService } from './auth/auth.service';
 import { RegisterComponent } from './register/register.component';
 import { ArticleAddComponent } from './article/article-add.component';
 import { AllArticleComponent } from './article/all-article.component';
+
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { AllArticleComponent } from './article/all-article.component';
     LoginComponent,
     RegisterComponent,
     ArticleAddComponent,
-    AllArticleComponent,  
+    AllArticleComponent  
   ],
   imports: [
     BrowserModule,

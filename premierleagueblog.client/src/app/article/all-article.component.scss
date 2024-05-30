@@ -1,4 +1,25 @@
 .article-image {
-  max-width: 50%;
+  width: 50%;
   height: auto;
 }
+
+.card-cursor:hover {
+  cursor: pointer;
+}
+
+mat-paginator {
+  font-size: 1rem;
+  font-weight: 400;
+  border: 1px solid #3D195B;
+  border-radius: 50px;
+}
+
+.card {
+  border: none ;
+}
+
+.custom-border {
+  border: 1px solid #3D195B;
+  border-radius: 50px;
+}
+

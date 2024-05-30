@@ -1,5 +1,5 @@
 <div class="main-page-container">
-  <h1><b>NEWEST ARTICLES</b></h1>
+  <h1 class="fs-1"><b>NEWEST ARTICLES</b></h1>
   <p *ngIf="!latestArticle">Loading...</p>
   <a class="nav-link" [routerLink]="['/article', latestArticle?.id]">
     <div class="container latest-article" *ngIf="latestArticle">
@@ -20,5 +20,5 @@
       </div>
     </div>
   </div>
-  <button class="btn custom-button" [routerLink]="['/']">All Articles</button>
+  <button class="btn custom-button mt-5" [routerLink]="['/']">All Articles</button>
 </div>

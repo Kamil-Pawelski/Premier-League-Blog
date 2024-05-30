@@ -43,7 +43,6 @@ export class LoginComponent implements OnInit {
       .login(loginRequest)
       .subscribe({
         next: (result) => {
-          console.log(result);
           this.loginResult = result;
           if (result.success) {
             let returnUrl = this.activatedRoute.snapshot.queryParamMap.get('returnUrl') || '/';

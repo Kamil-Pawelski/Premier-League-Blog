@@ -30,12 +30,6 @@ export class AllArticleComponent implements OnInit {
           this.totalArticles = result.totalCount;
         },
       });
-    console.log(this.totalArticles)
-  }
-
-  onPageChange(event: PageEvent) {
-    this.loadData(event);
-
   }
 
   getImagePath(image: string): string {
