@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PremierLeagueBlog.Server.Data;
@@ -77,6 +78,7 @@ namespace PremierLeagueBlog.Server.Controllers
 
         // PUT: api/Articles/{id}
         [HttpPut("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> PutArticle(int id, Article article)
         {
             if (id != article.Id)
@@ -94,6 +96,7 @@ namespace PremierLeagueBlog.Server.Controllers
 
         // DELETE: api/Articles/{id}
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> DeleteArticle(int id)
         {
             var article = await _context.Articles.FindAsync(id);
@@ -111,6 +114,7 @@ namespace PremierLeagueBlog.Server.Controllers
 
         // POST: api/Articles
         [HttpPost]
+        [Authorize(Roles = "Administrator")]
         public async Task<IActionResult> CreateArticle(Article article)
         {
             if (article == null)
