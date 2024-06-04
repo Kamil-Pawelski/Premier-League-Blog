@@ -4,10 +4,10 @@
   </div>
   <div *ngIf="article">
     <div class="mt-3" *ngIf="isLoggedIn && isAdmin">
-      <button class="btn me-2 custom-color-button" aria-label="Login button" (click)="editData()">
+      <button class="btn me-2 custom-button" aria-label="Login button" (click)="editData()">
         {{ editMode ? 'Back' : 'Edit' }}
       </button>
-      <button class="btn custom-color-button" aria-label="Register button" (click)="deleteArticle()">
+      <button class="btn custom-button" aria-label="Register button" (click)="deleteArticle()">
         Delete
       </button>
     </div>
@@ -39,7 +39,7 @@
           <label for="description">Description:</label>
           <textarea id="description" class="form-control" formControlName="description" required></textarea>
         </div>
-        <button type="submit" class="btn custom-color-button mt-3">Save</button>
+        <button type="submit" class="btn custom-button mt-3">Save</button>
       </form>
     </div>
   </div>

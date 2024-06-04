@@ -1,3 +1,5 @@
+@import'../../styles.scss';
+
 .main-page-container {
   text-align: center;
   font-size: 0.6rem;
@@ -31,11 +33,6 @@
   width: 40%;
   height: auto;
   max-height: 100px;
-}
-
-.custom-button {
-  background-color: #3D195B;
-  color: white;
 }
 
 .nav-link {

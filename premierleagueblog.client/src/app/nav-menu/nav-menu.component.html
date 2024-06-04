@@ -11,15 +11,15 @@
         <a *ngIf="isLoggedIn && isAdmin" class="nav-link" [routerLink]="['/add']">Add Article</a>
         <div class="ms-auto">
           <div *ngIf="!isLoggedIn">
-            <button class="btn me-2 custom-color-button" aria-label="Login button" [routerLink]="['/login']">
+            <button class="btn me-2 custom-button " aria-label="Login button" [routerLink]="['/login']">
               Login
             </button>
-            <button class="btn custom-color-button" aria-label="Register button" [routerLink]="['/register']">
+            <button class="btn custom-button " aria-label="Register button" [routerLink]="['/register']">
               Register
             </button>
           </div>
           <div *ngIf="isLoggedIn">
-            <button class="btn custom-color-button" aria-label="Register button" (click)="onLogout()">
+            <button class="btn custom-button " aria-label="Register button" (click)="onLogout()">
               Logout
             </button>
           </div>
