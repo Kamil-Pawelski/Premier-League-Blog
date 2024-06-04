@@ -55,18 +55,22 @@ namespace PremierLeagueBlog.Server.Controllers
 
             if (user != null)
             {
-                return BadRequest(new { message = "User with this email already exists." });
+                return BadRequest();
             }
 
             var newUser = new IdentityUser()
             {
-                SecurityStamp = Guid.NewGuid().ToString(),
                 UserName = registerRequest.Email,
                 Email = registerRequest.Email,
             };
 
             var result = await _userManager.CreateAsync(newUser, registerRequest.Password);
-            await _userManager.AddToRoleAsync(newUser, "RegisteredUser");
+            if (!result.Succeeded)
+            {
+                return BadRequest( result.Errors );
+            }
+
+            result = await _userManager.AddToRoleAsync(newUser, "RegisteredUser");
             if (!result.Succeeded)
             {
                 return BadRequest(result.Errors);
@@ -74,7 +78,7 @@ namespace PremierLeagueBlog.Server.Controllers
 
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(Register), new { id = newUser.Id }, newUser);
+            return NoContent();
         }
 
     }

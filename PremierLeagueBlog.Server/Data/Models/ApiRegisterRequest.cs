@@ -5,6 +5,7 @@ namespace PremierLeagueBlog.Server.Data.Models
     public class ApiRegisterRequest
     {
         [Required]
+        [EmailAddress]
         public required string Email { get; set; }
 
         [Required]

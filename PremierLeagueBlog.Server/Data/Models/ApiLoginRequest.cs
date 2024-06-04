@@ -1,15 +1,15 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace PremierLeagueBlog.Server.Data
+namespace PremierLeagueBlog.Server.Data.Models
 {
-    // dodac validacje tu jak i w reszcie
     public class ApiLoginRequest
     {
-
         [Required]
+        [EmailAddress]
         public required string Email { get; set; }
 
         [Required]
         public required string Password { get; set; }
+
     }
 }
